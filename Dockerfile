@@ -8,5 +8,4 @@ RUN pacman -Syyu --noconfirm
 RUN pacman -S --noconfirm --noprogressbar --needed texlive-fontsextra
 
 ## Workdir will be `sources`
-WORKDIR /source
-VOLUME ["/sources"]
+WORKDIR /sources
