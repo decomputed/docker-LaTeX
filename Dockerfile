@@ -5,6 +5,7 @@ LABEL maintainer="luis@decomputed.com"
 RUN pacman -Syyu --noconfirm
 
 ## Install tex-related thing
+RUN pacman -S --noconfirm --noprogressbar --needed texlive-core
 RUN pacman -S --noconfirm --noprogressbar --needed texlive-latexextra
 
 ## Workdir will be `sources`
