@@ -9,5 +9,4 @@ RUN pacman -S --noconfirm --noprogressbar --needed texlive-core
 RUN pacman -S --noconfirm --noprogressbar --needed texlive-latexextra
 
 ## Workdir will be `sources`
-WORKDIR /source
-VOLUME ["/sources"]
+WORKDIR /sources
