@@ -8,7 +8,7 @@ RUN pacman -Syyu --noconfirm
 RUN pacman -S --noconfirm --noprogressbar --needed make
 
 ## Install tex-related thing
-RUN pacman -S --noconfirm --noprogressbar --needed texlive-core
+RUN pacman -S --noconfirm --noprogressbar --needed texlive-bin
 
 ## Workdir will be `sources`
 WORKDIR /source
