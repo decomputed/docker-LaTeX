@@ -11,5 +11,4 @@ RUN pacman -S --noconfirm --noprogressbar --needed make
 RUN pacman -S --noconfirm --noprogressbar --needed texlive-bin
 
 ## Workdir will be `sources`
-WORKDIR /source
-VOLUME ["/sources"]
+WORKDIR /sources
